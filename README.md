@@ -16,5 +16,8 @@ The values of the sample points can be changed in real time, as well as panning,
 
 The mathematical details (actualy calculating the complex coefficients and converting the complex valued sum into real values, etc) are in DiscreteFourier2D.cpp.
 
+##Dependencies, compilation
+The only library needed to compile this is [libfltk1.3-dev](http://www.fltk.org/index.php). For compilation just use the makefile.
+
 
 

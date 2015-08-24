@@ -55,11 +55,11 @@ int MeshControl::handleEvents(int e){
 	
 	if (e == FL_KEYDOWN){
 		switch (Fl::event_key()){
-		case FL_Up:
+		case 'k':
 			changeCurrentElevation(0.5);
 			meshChanged = true;
 			return true;
-		case FL_Down:
+		case 'j':
 			changeCurrentElevation(-0.5);
 			meshChanged = true;
 			return true;

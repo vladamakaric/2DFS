@@ -24,7 +24,7 @@ public:
 		glw->resizable(*td);
 		buff->text("Controls:" 
 				   "\nLeft mouse drag - PAN, Right mouse drag - ROTATE, Mouse Wheel - Zoom"
-				   "\nMove the sample point - WASD, Modify sample value - UP/DOWN arrow");
+				   "\nMove the sample point - WASD, Modify sample value - j,k keys");
 		end();
 	}
 };
